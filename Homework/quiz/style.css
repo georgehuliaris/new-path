@@ -1,0 +1,129 @@
+/* make it look pretty */
+:root {
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 65%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    color: tomato;
+}
+
+h2 {
+    font-size: 45px;
+    color: tomato;
+    margin: 10px, 10px, 10px, 10px;
+}
+
+p {
+    color: tomato;
+}
+
+.container {
+    padding-top: 20px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.flex-column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+text-center {
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    font-size: 60px; 
+    padding: 5px;
+    padding-bottom: 10px;
+    width: auto;
+    margin-bottom: 20px;
+    color: black;
+    background: linear-gradient(90deg, rgb(66, 115, 248) 0%, rgb(1, 63, 156) 100%);
+    border-radius: 4px;
+}
+
+.btn:hover {
+    box-shadow: 0 0.4rem 2.4rem 0 white;
+}
+
+/* end page */
+
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 yellowgreen;
+}
+
+input::placeholder {
+    color: lightgray;
+}
+#username {
+    margin-bottom: 3rem;
+    width: 100%;
+    outline: none;
+}
+#end-text {
+    font-size: 2.4rem;
+    color: white;
+    text-align: center;
+}
+
+#saveScoreBtn {
+    border: none;
+}
+
+#highScoresList {
+    list-style: none;
+    margin-bottom: 4rem;
+}
+
+.high-score {
+    font-size: 2.8rem;
+    margin-bottom: .4rem;
+}
+
+
+
+
+
